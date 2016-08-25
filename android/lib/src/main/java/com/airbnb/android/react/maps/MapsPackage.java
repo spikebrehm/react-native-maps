@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MapsPackage implements ReactPackage {
-    public MapsPackage(Activity activity) { } // backwards compatability
+    public MapsPackage(Activity activity) { } // backwards compatibility
     public MapsPackage() { }
 
     @Override

@@ -67,7 +67,6 @@ public class AirMapView extends MapView implements GoogleMap.InfoWindowAdapter,
     private boolean isTouchDown = false;
     private boolean handlePanDrag = false;
     private boolean cacheEnabled = false;
-    private boolean loadingEnabled = false;
 
     private static final String[] PERMISSIONS = new String[] {
             "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION"};
